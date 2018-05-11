@@ -1,0 +1,10 @@
+server:
+  port: 10000
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false # 表示是否注册Eureka服务器,因为自身作为服务注册中心，所以为false 表明自己是eureka server
+    fetch-registry: false #是否从eureka上获取注册信息，同上 表明自己是eureka server
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
