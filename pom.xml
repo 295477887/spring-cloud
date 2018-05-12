@@ -14,6 +14,12 @@
         <version>1.5.4.RELEASE</version>
         <relativePath/>
     </parent>
+    <modules>
+        <module>service-hi</module>
+        <module>service-feign</module>
+        <module>service-ribbon</module>
+        <module>eurekaServer</module>
+    </modules>
 
 
 </project>
