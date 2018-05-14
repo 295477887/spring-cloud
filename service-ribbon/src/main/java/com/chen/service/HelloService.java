@@ -15,10 +15,10 @@ public class HelloService {
 
 
     /**
-     * SERVICE-PORT为服务名，已经注册到同一个eureka
+     * SERVICE-HI为服务名，已经注册到同一个eureka
      * */
     public String hiService(String name){
-        return restTemplate.getForObject("http://SERVICE-PORT/getPort?name=", String.class);
+        return restTemplate.getForObject("http://SERVICE-HI/hi?name=", String.class);
     }
 
 }

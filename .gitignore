@@ -1,7 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .mvn/
 target/
-mvnw
+/mvnw
 mvnw.cmd
 /.mvn/
 /service-feign/.mvn/
