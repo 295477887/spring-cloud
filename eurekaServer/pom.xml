@@ -11,7 +11,7 @@
 	<name>eureka_server</name>
 
 	<parent>
-		<groupId>com.chen.springcloud</groupId>
+		<groupId>com.chen</groupId>
 		<artifactId>spring-cloud</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>

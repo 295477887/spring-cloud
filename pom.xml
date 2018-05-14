@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.chen.springcloud</groupId>
+    <groupId>com.chen</groupId>
     <artifactId>spring-cloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -42,6 +42,9 @@
         <module>eurekaServer</module>
         <module>service-ribbon-hystrix</module>
         <module>service-feign-hystrix</module>
+        <module>service-zuul</module>
+        <module>config-server</module>
+        <module>config-client</module>
     </modules>
 
 

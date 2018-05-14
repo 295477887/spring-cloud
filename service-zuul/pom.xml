@@ -4,12 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.chen</groupId>
-	<artifactId>service_feign</artifactId>
+	<artifactId>service-zuul</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
-	<name>service_feign</name>
-	<description>Demo project for Spring Boot</description>
 
 	<parent>
 		<groupId>com.chen</groupId>
@@ -20,7 +17,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
 		</dependency>
 
 		<dependency>
@@ -48,6 +45,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
