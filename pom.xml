@@ -37,6 +37,7 @@
 
     <modules>
         <module>service-hi</module>
+        <module>service-hello</module>
         <module>service-feign</module>
         <module>service-ribbon</module>
         <module>eurekaServer</module>
@@ -45,6 +46,8 @@
         <module>service-zuul</module>
         <module>config-server</module>
         <module>config-client</module>
+        <module>zipkin-server</module>
+        <module>hystrix-turbine</module>
     </modules>
 
 
